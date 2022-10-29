@@ -1,5 +1,5 @@
 import React from "react";
-import softwareImage from "../../../images/vr.jpg";
+import softwareImage from "../../../images/software.jpg";
 import websiteImage from "../../../images/web.jpg";
 import appImage from "../../../images/app.jpg";
 
@@ -10,7 +10,6 @@ import MuiAccordionSummary, {
   AccordionSummaryProps,
 } from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -85,9 +84,9 @@ function WhatWeDoItems() {
                     factor determining your success or failure on the market.
                   </span>
 
-                  <a className="underline decoration-white underline-offset-2 cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 cursor-pointer">
                     Let's Build Your Software!
-                  </a>
+                  </span>
                 </div>
                 <img
                   src={softwareImage}
@@ -125,9 +124,9 @@ function WhatWeDoItems() {
                     its success as you do.
                   </span>
 
-                  <a className="underline decoration-white underline-offset-2 cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 cursor-pointer">
                     Let's Build Your Website!
-                  </a>
+                  </span>
                 </div>
                 <img
                   src={websiteImage}
@@ -162,9 +161,9 @@ function WhatWeDoItems() {
                     trusted frameworks that make apps like Facebook great.
                   </span>
 
-                  <a className="underline decoration-white underline-offset-2 cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 cursor-pointer">
                     Let's Build Your Apps & Games!
-                  </a>
+                  </span>
                 </div>
                 <img
                   src={appImage}
