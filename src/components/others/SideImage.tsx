@@ -1,21 +1,29 @@
-import React from 'react'
+import React from "react";
 
 type SideImagePropType = {
-  image: any
+  image: any;
+};
+
+export function SideImage1({ image }: SideImagePropType) {
+  return (
+    <div className="flex justify-end items-start w-full mt-10 md:mt-8 md:h-[520px] md:bg-split-image-background-a">
+      <img
+        src={image}
+        alt="Team"
+        className="w-full rounded-none md:h-full md:w-min md:rounded-l-xl"
+      />
+    </div>
+  );
 }
 
-export function SideImage1({image}: SideImagePropType) {
+export function SideImage2({ image }: SideImagePropType) {
   return (
-    <div className='mt-8 w-full h-[520px] bg-split-image-background-a flex justify-end items-start'>
-          <img src={image} alt="Team" className='h-full w-min rounded-l-xl'/>
+    <div className="flex justify-start items-start w-full mt-10 md:mt-8 md:h-[520px] md:bg-split-image-background-b">
+      <img
+        src={image}
+        alt="Team"
+        className="w-full rounded-none md:h-full md:w-min md:rounded-r-xl"
+      />
     </div>
-  )
-}
-
-export function SideImage2({image}: SideImagePropType) {
-  return (
-    <div className='mt-8 w-full h-[520px] bg-split-image-background-b flex justify-start items-start'>
-          <img src={image} alt="Team" className='h-full w-min rounded-r-xl'/>
-    </div>
-  )
+  );
 }
