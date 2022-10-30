@@ -59,8 +59,8 @@ function WhatWeDoItems() {
     };
 
   return (
-    <div className="px-4 md:pl-40 md:pr-20">
-      <div className="mt-7 md:mt-20">
+    <div className="px-4 md:px-10 lg:pl-40 lg:pr-20">
+      <div className="mt-7 md:mt-12 lg:mt-20">
         <Accordion
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
@@ -72,9 +72,9 @@ function WhatWeDoItems() {
           </AccordionSummary>
           <AccordionDetails>
             <div className="accordion-body">
-              <div className="flex justify-start items-start flex-col md:flex-row">
+              <div className="flex justify-start items-start flex-col lg:flex-row">
                 <div className="flex flex-col justify-start items-start">
-                  <span className="mb-8 md:mb-16">
+                  <span className="mb-8 lg:mb-16">
                     We live in a world of constant technological change.
                     Businesses now have a wealth of cutting-edge solutions at
                     their disposal to remain competitive, such as computer
@@ -84,21 +84,21 @@ function WhatWeDoItems() {
                     factor determining your success or failure on the market.
                   </span>
 
-                  <span className="underline decoration-white underline-offset-2 md:cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 lg:cursor-pointer">
                     Let's Build Your Software!
                   </span>
                 </div>
                 <img
                   src={softwareImage}
                   alt="Software Design"
-                  className="rounded-lg w-full mt-10 md:mt-0 md:ml-16 md:rounded-xl md:w-[600px]"
+                  className="rounded-lg w-full mt-10 lg:mt-0 lg:ml-16 lg:rounded-xl lg:w-[600px]"
                 />
               </div>
             </div>
           </AccordionDetails>
         </Accordion>
       </div>
-      <div className="mt-7 md:mt-20">
+      <div className="mt-7 lg:mt-20">
         <Accordion
           expanded={expanded === "panel2"}
           onChange={handleChange("panel2")}
@@ -110,9 +110,9 @@ function WhatWeDoItems() {
           </AccordionSummary>
           <AccordionDetails>
             <div className="accordion-body">
-              <div className="flex justify-start items-start flex-col md:flex-row">
+              <div className="flex justify-start items-start flex-col lg:flex-row">
                 <div className="flex flex-col justify-start items-start">
-                  <span className="mb-8 md:mb-16">
+                  <span className="mb-8 lg:mb-16">
                     Build web applications with the world’s most trusted and
                     popular web development technologies, including Ruby on
                     Rails, JavaScript, Python with Django, and Elixir with
@@ -124,21 +124,21 @@ function WhatWeDoItems() {
                     its success as you do.
                   </span>
 
-                  <span className="underline decoration-white underline-offset-2 md:cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 lg:cursor-pointer">
                     Let's Build Your Website!
                   </span>
                 </div>
                 <img
                   src={websiteImage}
                   alt="Website Development"
-                  className="rounded-lg w-full mt-10 md:mt-0 md:ml-16 md:rounded-xl md:w-[600px]"
+                  className="rounded-lg w-full mt-10 lg:mt-0 lg:ml-16 lg:rounded-xl lg:w-[600px]"
                 />
               </div>
             </div>
           </AccordionDetails>
         </Accordion>
       </div>
-      <div className="mt-7 md:mt-20">
+      <div className="mt-7 lg:mt-20">
         <Accordion
           expanded={expanded === "panel3"}
           onChange={handleChange("panel3")}
@@ -150,9 +150,9 @@ function WhatWeDoItems() {
           </AccordionSummary>
           <AccordionDetails>
             <div className="accordion-body">
-              <div className="flex justify-start items-start flex-col md:flex-row">
+              <div className="flex justify-start items-start flex-col lg:flex-row">
                 <div className="flex flex-col justify-start items-start">
-                  <span className="mb-8 md:mb-16">
+                  <span className="mb-8 lg:mb-16">
                     Build stunning, usable mobile experiences for various
                     platforms and devices. Remember that iOS users expect
                     consistency and quality, while Android apps have to
@@ -161,14 +161,14 @@ function WhatWeDoItems() {
                     trusted frameworks that make apps like Facebook great.
                   </span>
 
-                  <span className="underline decoration-white underline-offset-2 md:cursor-pointer">
+                  <span className="underline decoration-white underline-offset-2 lg:cursor-pointer">
                     Let's Build Your Apps & Games!
                   </span>
                 </div>
                 <img
                   src={appImage}
                   alt="Website Development"
-                  className="rounded-lg w-full mt-10 md:mt-0 md:ml-16 md:rounded-xl md:w-[600px]"
+                  className="rounded-lg w-full mt-10 lg:mt-0 lg:ml-16 lg:rounded-xl lg:w-[600px]"
                 />
               </div>
             </div>

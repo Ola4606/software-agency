@@ -7,13 +7,13 @@
 
 
 .navbar-items {
-    @apply font-normal font-casual text-gray-500 mr-2 text-sm md:mr-10 md:text-lg md:cursor-pointer;
+    @apply font-normal font-casual text-gray-500 mr-2 text-sm md:mr-5 md:text-base lg:mr-10 lg:text-lg lg:cursor-pointer;
 }
 
 .accordion-header {
-    @apply text-start font-light font-titleNorm text-white text-2xl md:text-5xl md:hover:text-white
+    @apply text-start font-light font-titleNorm text-white text-2xl md:text-3xl lg:text-5xl lg:hover:text-white
 }
 
 .accordion-body {
-    @apply text-start font-light font-casual text-white text-sm md:text-lg md:hover:text-white
+    @apply text-start font-light font-casual text-white text-sm md:text-base lg:text-lg lg:hover:text-white
 }
