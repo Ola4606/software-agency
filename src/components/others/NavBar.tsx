@@ -7,7 +7,6 @@ function NavBar() {
         Joe's Agency
       </span>
       <div className="flex justify-end items-center">
-        <span className="navbar-items">Home</span>
         <span className="navbar-items">About</span>
         <span className="navbar-items">Services</span>
         <span className="navbar-items">Projects</span>

@@ -7,6 +7,7 @@ import WhatWeDoIntro from "./WhatWeDoIntro";
 import More from "./More";
 import Projects from "./Projects";
 import Banner from "./Banner";
+import BottomBar from "../../others/BottomBar";
 
 
 function Main() {
@@ -19,6 +20,7 @@ function Main() {
       <SideImage2 image={VRImage} />
       <Projects />
       <Banner />
+      <BottomBar />
     </div>
   );
 }

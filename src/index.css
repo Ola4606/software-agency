@@ -555,12 +555,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mb-24 {
@@ -591,6 +603,18 @@ video {
   margin-left: 4rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -607,8 +631,12 @@ video {
   height: 570px;
 }
 
-.h-40 {
-  height: 10rem;
+.h-\[550px\] {
+  height: 550px;
+}
+
+.min-h-\[570px\] {
+  min-height: 570px;
 }
 
 .w-full {
@@ -624,8 +652,20 @@ video {
   width: 600px;
 }
 
-.w-40 {
-  width: 10rem;
+.w-36 {
+  width: 9rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .min-w-full {
@@ -681,6 +721,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -707,9 +751,28 @@ video {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-slate-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
+
 .border-yellow-500 {
   --tw-border-opacity: 1;
   border-color: rgb(234 179 8 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -780,6 +843,10 @@ video {
   padding-left: 10rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
 .pr-10 {
   padding-right: 2.5rem;
 }
@@ -800,8 +867,8 @@ video {
   padding-bottom: 16rem;
 }
 
-.pr-20 {
-  padding-right: 5rem;
+.pr-40 {
+  padding-right: 10rem;
 }
 
 .text-center {
@@ -812,12 +879,21 @@ video {
   text-align: start;
 }
 
+.font-casual {
+  font-family: Poppins, sans-serif;
+}
+
 .font-titleBold {
   font-family: DM Sans, sans-serif;
 }
 
 .font-titleNorm {
   font-family: Open Sans, sans-serif;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-2xl {
@@ -845,6 +921,20 @@ video {
   line-height: 1;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -859,6 +949,11 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-black {
